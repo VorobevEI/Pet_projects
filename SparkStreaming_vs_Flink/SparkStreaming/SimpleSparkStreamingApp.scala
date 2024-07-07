@@ -5,7 +5,7 @@ import org.apache.spark.sql.streaming.OutputMode
 object SparkStreamingExample extends App {
 
   val spark = SparkSession.builder()
-    .appName("ReviewAnalyzer")
+    .appName("SparkApp")
     .master("local[*]")
     .getOrCreate()
 

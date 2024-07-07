@@ -27,7 +27,7 @@ package scala {
       eventStream.print()
 
       // Starting a data stream
-      env.execute("Flink Socket Streaming Example")
+      env.execute("Flink App")
     }
   }
 }
