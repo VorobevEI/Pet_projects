@@ -2,7 +2,7 @@ package scala
 import org.apache.spark.sql.{SparkSession}
 import org.apache.spark.sql.streaming.OutputMode
 
-object TaxiAnalyzer extends App {
+object SparkStreamingExample extends App {
 
   val spark = SparkSession.builder()
     .appName("ReviewAnalyzer")

@@ -4,7 +4,7 @@ package scala {
   case class Event(timestamp: String, customerId: String, eventType: String, productId: String, price: Double, processingDuration: Double)
 
 
-  object FlinkSocketStreamingExample {
+  object FlinkStreamingExample {
 
     def main(args: Array[String]): Unit = {
       val env = StreamExecutionEnvironment.getExecutionEnvironment
