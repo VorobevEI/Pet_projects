@@ -23,7 +23,7 @@ package scala {
         Event(timestamp, customerId, eventType, productId, price, processingDuration)
       }
 
-      // Å
+      // Outputting data to the console
       eventStream.print()
 
       // Starting a data stream
