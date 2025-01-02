@@ -23,5 +23,6 @@ docker exec -it chat-analytics-kafka-1 /bin/sh -c "exec kafka-console-producer -
 
 docker exec -it chat-analytics-kafka-1 /bin/sh -c "exec kafka-console-consumer --bootstrap-server localhost:9092 --topic my_topic --from-beginning"
 ```
+![Project Architecture](images/architecture.jpg)
 
 Feel free to reach out to me directly for more details.
