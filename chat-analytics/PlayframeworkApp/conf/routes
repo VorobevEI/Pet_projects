@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /                           controllers.HomeController.index
+
+GET     /count                      controllers.CountController.count
+
+GET     /message                    controllers.AsyncController.message
+
+GET     /assets/*file               controllers.Assets.versioned(file)
+
+GET     /echo/:msg       controllers.AsyncController.echoMessage(msg)
+
+POST    /post-message    controllers.AsyncController.postMessage
+
+GET     /chat           controllers.KafkaController.showForm
+
+POST    /send-message   controllers.KafkaController.sendMessage
