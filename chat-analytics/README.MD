@@ -26,3 +26,26 @@ docker exec -it chat-analytics-kafka-1 /bin/sh -c "exec kafka-console-consumer -
 ![Project Architecture](images/architecture.jpg)
 
 Feel free to reach out to me directly for more details.
+
+P.S. The word list for testing:
+
+- This is just a normal message
+- What the hell is going on here?
+- Du bist ein verdammter Idiot!
+- C'est une journée magnifique, mais putain il fait chaud.
+- La mierda de hoy no vale nada.
+- Why are you being such an asshole?
+- Scheiße! Ich habe meinen Schlüssel vergessen.
+- Je t'ai dit de ne pas faire ça, connard!
+- ¡Coño! ¿Dónde está mi cartera?
+- You're such a wonderful person, really!
+- Verdammt noch mal, das war knapp
+- Oh non, quel bordel dans cette chambre!
+- Esto es una puta locura, ¿verdad?
+- I'm so happy for you, congratulations!
+- Das ist ein wunderschöner Tag
+- Je suis tellement fatigué aujourd'hui
+- No sé qué hacer ahora mismo
+- What a lovely day, isn't it?
+- Heute ist ein schöner Tag
+- Bonjour, comment ça va?
