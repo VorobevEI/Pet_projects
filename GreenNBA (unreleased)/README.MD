@@ -1,8 +1,8 @@
-##Project Overview
+#Project Overview
 
 This project provides a data ecosystem infrastructure, including Kafka, HBase, Hadoop, Hive, Spark, Prometheus, and Grafana, using Docker Compose. The goal is to create a local environment for developing, testing, and showcasing data processing systems.
 
-##Tech Stack
+#Tech Stack
 - Kafka: Distributed platform for data streaming.
 - HBase: Distributed column-oriented database.
 - Hadoop (HDFS): File system for big data storage.
@@ -12,6 +12,6 @@ This project provides a data ecosystem infrastructure, including Kafka, HBase, H
 - Grafana: Visualization platform for monitoring metrics.
 - Airflow: Workflow orchestration and automation tool.
 
-##Schema
+#Schema
 
 ![Project Architecture](images/GreenNBA.jpg)
